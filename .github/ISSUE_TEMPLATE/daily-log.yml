@@ -1,0 +1,97 @@
+name: "📝 Daily ML Learning Log"
+description: "Log your daily Machine Learning progress directly from mobile or web!"
+title: "[Log]: Day <Day_Number> - <Topic>"
+labels: ["daily-log"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🚀 Daily Machine Learning Tracker
+        Fill this quick form to automatically log your daily ML learnings, update your streak, and push to the repo!
+  - type: input
+    id: day
+    attributes:
+      label: "Day Number"
+      description: "E.g., Day 1, Day 42"
+      placeholder: "Day 1"
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: "Date"
+      description: "Format: YYYY-MM-DD (e.g., 2026-08-22)"
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: "Topic / Title"
+      description: "What topic did you learn today?"
+      placeholder: "e.g., Gradient Descent & Learning Rate Optimization"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category / Domain"
+      description: "Select the primary domain of today's learning"
+      options:
+        - "🧠 Core Machine Learning"
+        - "📐 Mathematics & Statistics"
+        - "⚡ Deep Learning & Neural Networks"
+        - "💬 Natural Language Processing (NLP)"
+        - "👁️ Computer Vision"
+        - "🤖 LLMs & Generative AI"
+        - "🛠️ MLOps & Deployment"
+        - "📊 Data Preprocessing & EDA"
+        - "💻 Hands-on Project / Kaggle"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "💡 Key Concepts & Learnings"
+      description: "Summarize what you learned today (bullet points, intuition, key formulas, etc.)"
+      placeholder: "- Concept 1...\n- Key takeaway...\n- Why it matters..."
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: "💻 Code Snippet / Key Equations (Optional)"
+      description: "Paste relevant code, formulas, or implementation notes"
+      render: python
+      placeholder: "# Python / PyTorch / Scikit-learn snippet\nimport torch\n..."
+    validations:
+      required: false
+  - type: textarea
+    id: resources
+    attributes:
+      label: "🔗 Resources & References (Optional)"
+      description: "Links to articles, videos, papers, or documentation you referred to"
+      placeholder: "- [Video Title](https://...)\n- [Documentation](https://...)"
+    validations:
+      required: false
+  - type: dropdown
+    id: rating
+    attributes:
+      label: "⭐ Today's Confidence & Rating"
+      description: "How well did you understand the topic?"
+      options:
+        - "⭐⭐⭐⭐⭐ (Crystal Clear)"
+        - "⭐⭐⭐⭐ (Solid Understanding)"
+        - "⭐⭐⭐ (Understood Basics, need more practice)"
+        - "⭐⭐ (A bit challenging, will review)"
+        - "⭐ (Tough topic, need deep dive)"
+    validations:
+      required: false
+  - type: input
+    id: time_spent
+    attributes:
+      label: "⏱️ Time Spent (Optional)"
+      description: "E.g., 1.5 hours, 45 mins"
+      placeholder: "1.5 hours"
+    validations:
+      required: false
