@@ -34,8 +34,8 @@ jobs:
 
       - name: 🚀 Commit & Push Daily Progress
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "${{ github.event.issue.user.login || 'kunalBainsla007' }}"
+          git config --global user.email "kunalbainsla82@gmail.com"
           
           git add logs/ README.md
           
