@@ -11,8 +11,6 @@ permissions:
 
 jobs:
   process-daily-log:
-    # Only run for daily log issues or manual dispatch
-    if: contains(github.event.issue.labels.*.name, 'daily-log') || startsWith(github.event.issue.title, '[Log]') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:

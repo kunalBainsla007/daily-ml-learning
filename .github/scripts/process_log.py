@@ -78,10 +78,15 @@ def parse_issue_body(body_text: str) -> dict:
     if not data["date"]:
         data["date"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     
-    # Clean day number e.g. "Day 1", "01", "1" -> "1"
-    day_match = re.search(r'\d+', data["day"])
-    if day_match:
-        data["day_num"] = int(day_match.group(0))
+    # Clean day number e.g. "Day 1", "01", "Day1,Day2"
+    day_matches = re.findall(r'\d+', data["day"])
+    if len(day_matches) > 1:
+        start_day = int(day_matches[0])
+        end_day = int(day_matches[-1])
+        data["day_num"] = end_day
+        data["day_str"] = f"Day {start_day:03d}-{end_day:03d}"
+    elif len(day_matches) == 1:
+        data["day_num"] = int(day_matches[0])
         data["day_str"] = f"Day {data['day_num']:03d}"
     else:
         # Fallback: estimate day number from existing logs count + 1
@@ -111,12 +116,13 @@ def create_log_file(data: dict) -> Path:
     file_path = LOGS_DIR / filename
 
     code_block = ""
-    if data["code"]:
+    clean_code = data["code"].strip()
+    if clean_code and clean_code not in ["```python", "```", "```python\n```", "```\n```", "_No response_"]:
         # If user didn't wrap in backticks, wrap in python markdown fence
-        if not data["code"].startswith("```"):
-            code_block = f"\n## 💻 Code / Implementation\n```python\n{data['code']}\n```\n"
+        if not clean_code.startswith("```"):
+            code_block = f"\n## 💻 Code / Implementation\n```python\n{clean_code}\n```\n"
         else:
-            code_block = f"\n## 💻 Code / Implementation\n{data['code']}\n"
+            code_block = f"\n## 💻 Code / Implementation\n{clean_code}\n"
 
     resources_block = ""
     if data["resources"]:

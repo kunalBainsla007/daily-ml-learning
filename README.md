@@ -6,7 +6,7 @@
 
 <!-- BADGES_START -->
 <p align="center">
-  ![Streak](https://img.shields.io/badge/Current_Streak-1_Days-flame?style=for-the-badge&logo=fire&logoColor=white&color=FF5722) ![Total Days](https://img.shields.io/badge/Total_Logged-1_Days-blue?style=for-the-badge&logo=target&logoColor=white&color=2196F3) ![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge&color=4CAF50)
+  ![Streak](https://img.shields.io/badge/Current_Streak-1_Days-flame?style=for-the-badge&logo=fire&logoColor=white&color=FF5722) ![Total Days](https://img.shields.io/badge/Total_Logged-2_Days-blue?style=for-the-badge&logo=target&logoColor=white&color=2196F3) ![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge&color=4CAF50)
 </p>
 <!-- BADGES_END -->
 
@@ -51,7 +51,7 @@ This repository tracks my daily journey of learning **Machine Learning**, **Math
 ## 📊 Topic Distribution & Stats
 
 <!-- CATEGORY_STATS_START -->
-`🧠 Core Machine Learning: 1 days`
+`🧠 Core Machine Learning: 2 days`
 <!-- CATEGORY_STATS_END -->
 
 ---
@@ -61,6 +61,7 @@ This repository tracks my daily journey of learning **Machine Learning**, **Math
 <!-- LOG_TABLE_START -->
 | Day | Date | Topic | Domain | Rating | Note |
 |:---|:---|:---|:---|:---:|:---:|
+| **Day 002** | `2026-08-19` | **numpy,pandas** | 🧠 Core Machine Learning | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-002_numpy-pandas.md) |
 | **Day 001** | `2026-08-22` | **Introduction to Machine Learning & Roadmap** | 🧠 Core Machine Learning | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-001_introduction-to-machine-learning-roadmap.md) |
 <!-- LOG_TABLE_END -->
 
