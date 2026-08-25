@@ -6,7 +6,7 @@
 
 <!-- BADGES_START -->
 <p align="center">
-  ![Streak](https://img.shields.io/badge/Current_Streak-3_Days-flame?style=for-the-badge&logo=fire&logoColor=white&color=FF5722) ![Total Days](https://img.shields.io/badge/Total_Logged-6_Days-blue?style=for-the-badge&logo=target&logoColor=white&color=2196F3) ![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge&color=4CAF50)
+  ![Streak](https://img.shields.io/badge/Current_Streak-4_Days-flame?style=for-the-badge&logo=fire&logoColor=white&color=FF5722) ![Total Days](https://img.shields.io/badge/Total_Logged-7_Days-blue?style=for-the-badge&logo=target&logoColor=white&color=2196F3) ![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge&color=4CAF50)
 </p>
 <!-- BADGES_END -->
 
@@ -51,7 +51,7 @@ This repository tracks my daily journey of learning **Machine Learning**, **Math
 ## 📊 Topic Distribution & Stats
 
 <!-- CATEGORY_STATS_START -->
-`🧠 Core Machine Learning: 3 days` • `📊 Data Preprocessing & EDA: 2 days` • `📐 Mathematics & Statistics: 1 days`
+`📊 Data Preprocessing & EDA: 3 days` • `🧠 Core Machine Learning: 3 days` • `📐 Mathematics & Statistics: 1 days`
 <!-- CATEGORY_STATS_END -->
 
 ---
@@ -61,6 +61,7 @@ This repository tracks my daily journey of learning **Machine Learning**, **Math
 <!-- LOG_TABLE_START -->
 | Day | Date | Topic | Domain | Rating | Note |
 |:---|:---|:---|:---|:---:|:---:|
+| **Day 007** | `2026-08-25` | **Outliers and Features construction** | 📊 Data Preprocessing & EDA | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-007_outliers-and-features-construction.md) |
 | **Day 006** | `2026-08-24` | **Handling missing values** | 📊 Data Preprocessing & EDA | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-006_handling-missing-values.md) |
 | **Day 005** | `2026-08-23` | **Data Gathering and Preprocessing** | 📊 Data Preprocessing & EDA | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-005_data-gathering-and-preprocessing.md) |
 | **Day 004** | `2026-08-23` | **Statistics and Probability** | 📐 Mathematics & Statistics | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-004_statistics-and-probability.md) |
