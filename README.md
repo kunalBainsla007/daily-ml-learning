@@ -6,7 +6,7 @@
 
 <!-- BADGES_START -->
 <p align="center">
-  ![Streak](https://img.shields.io/badge/Current_Streak-1_Days-flame?style=for-the-badge&logo=fire&logoColor=white&color=FF5722) ![Total Days](https://img.shields.io/badge/Total_Logged-10_Days-blue?style=for-the-badge&logo=target&logoColor=white&color=2196F3) ![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge&color=4CAF50)
+  ![Streak](https://img.shields.io/badge/Current_Streak-1_Days-flame?style=for-the-badge&logo=fire&logoColor=white&color=FF5722) ![Total Days](https://img.shields.io/badge/Total_Logged-11_Days-blue?style=for-the-badge&logo=target&logoColor=white&color=2196F3) ![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge&color=4CAF50)
 </p>
 <!-- BADGES_END -->
 
@@ -51,7 +51,7 @@ This repository tracks my daily journey of learning **Machine Learning**, **Math
 ## 📊 Topic Distribution & Stats
 
 <!-- CATEGORY_STATS_START -->
-`🧠 Core Machine Learning: 4 days` • `📊 Data Preprocessing & EDA: 3 days` • `🤖 LLMs & Generative AI: 2 days` • `📐 Mathematics & Statistics: 1 days`
+`🧠 Core Machine Learning: 5 days` • `📊 Data Preprocessing & EDA: 3 days` • `🤖 LLMs & Generative AI: 2 days` • `📐 Mathematics & Statistics: 1 days`
 <!-- CATEGORY_STATS_END -->
 
 ---
@@ -61,6 +61,7 @@ This repository tracks my daily journey of learning **Machine Learning**, **Math
 <!-- LOG_TABLE_START -->
 | Day | Date | Topic | Domain | Rating | Note |
 |:---|:---|:---|:---|:---:|:---:|
+| **Day 011** | `2026-09-04` | **Gradient Descent** | 🧠 Core Machine Learning | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-011_gradient-descent.md) |
 | **Day 010** | `2026-08-31` | **Machine learning algorithms** | 🧠 Core Machine Learning | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-010_machine-learning-algorithms.md) |
 | **Day 009** | `2026-08-28` | **Langchain** | 🤖 LLMs & Generative AI | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-009_langchain.md) |
 | **Day 008** | `2026-08-26` | **Lanchain** | 🤖 LLMs & Generative AI | ⭐⭐⭐⭐⭐ | [Read Note 📖](logs/day-008_lanchain.md) |
